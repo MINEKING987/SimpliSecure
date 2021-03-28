@@ -4,11 +4,11 @@ This project allows users to turn their old android devices into security device
 
 This can be used in a standalone mode which unfortunately wont work in the dark. But the other version which includes connecting an ESP will work in the dark too!
 
-## Try the app [here](app/release/app-release.apk)
+**Try the app [here](app/release/app-release.apk)**
 
-## Check out a Demonstration of the project [Here](https://youtu.be/g4UWgCsEWNU) 
+**Check out a Demonstration of the project [Here](https://youtu.be/g4UWgCsEWNU)** 
 
-## using the app
+## using the app:
 ### 1. standalone Mode
 1. open the app
 2. give requested permissions
