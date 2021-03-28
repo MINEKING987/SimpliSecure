@@ -13,6 +13,7 @@ This can be used in a standalone mode which unfortunately wont work in the dark.
 3. select Standalone mode
 4. The service will now have started!
 5. When movement is detected infront of the camera, A photo is captured and sent to Face recognition program to check for faces,if present,image will be saved.
+6. it is Recommonded to use Screen-pinning to increase security
 ##### Note: this method is only reliable if there is enough ambient light.
 
 ### 2.ESP-01 mode
@@ -21,6 +22,7 @@ This can be used in a standalone mode which unfortunately wont work in the dark.
 3. select ESP-01 mode.
 4. Setup the ESP-01 for working with the android.
 5. The mode should now be working!
+6. it is Recommonded to use Screen-pinning to increase security
 
 ## setting up the ESP
 1. connect the esp-01 to a programmer and connect gpio-0 to ground to start programming mode of ESP
