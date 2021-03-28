@@ -30,3 +30,6 @@ This can be used in a standalone mode which unfortunately wont work in the dark.
 3. connect the output of a PIR sensor to gpio-0.
 4. power the ESP and the PIR sensor and connect to it's wifi. The portal page the opens subsequently allows you to give the ESP wifi-credentials to login from the next time.
 ##### Note: The ESP requires 3.3v with a minimum of 80 mA for proper functioning.
+
+## Finding captured Images
+The images captured by the app will be saved in a folder called "SimpliSecure". Just check your Pictures folder for the folder name.
