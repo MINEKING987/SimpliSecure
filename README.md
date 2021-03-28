@@ -25,6 +25,8 @@ This can be used in a standalone mode which unfortunately wont work in the dark.
 4. Setup the ESP-01 for working with the android.
 5. The mode should now be working!
 6. it is Recommonded to use Screen-pinning to increase security
+##### Note: This mode's funtionality can be tested by opening the address provided in the info of the app along with the port mentioned Ex: http://192.168.1.15:8888
+
 
 ## setting up the ESP
 1. connect the esp-01 to a programmer and connect gpio-0 to ground to start programming mode of ESP
