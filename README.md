@@ -1,6 +1,6 @@
 # SimpliSecure
 
-This project allows users to turn their old android devices into security devices.This works with most devices running android 5+.
+This project allows users to turn their old android devices into security devices.This works with most devices running android 5 and above.
 
 This can be used in a standalone mode which unfortunately wont work in the dark. But the other version which includes connecting an ESP will work in the dark too!
 
