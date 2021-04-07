@@ -9,6 +9,8 @@ This can be used in a standalone mode which unfortunately wont work in the dark.
 **Check out a Demonstration of the project [Here](https://youtu.be/g4UWgCsEWNU)** 
 
 ## using the app:
+This app currently has two modes. Both solve the same problem of getting a home security device with little to no cost. This project consists of an Android app along with an optional ability to connect with a PIR sensor for working in the dark.
+
 ### 1. standalone Mode
 1. open the app
 2. give requested permissions
@@ -20,19 +22,19 @@ This can be used in a standalone mode which unfortunately wont work in the dark.
 
 ### 2.ESP-01 mode
 1. open the app
-2. give permissions
+2. give permissions.
 3. select ESP-01 mode.
-4. Setup the ESP-01 for working with the android.
-5. The mode should now be working!
+4. Setup the ESp circuit as mentioned below and connect it with the same wifi as the android phone.
+5. This mode should now be working!
 6. it is Recommonded to use Screen-pinning to increase security
 ##### Note: This mode's funtionality can be tested by opening the address provided in the info of the app along with the port mentioned Ex: http://192.168.1.15:8888
 
 
-## setting up the ESP
+## setting up the ESP circuit
 1. connect the esp-01 to a programmer and connect gpio-0 to ground to start programming mode of ESP
 2. flash the given [code](ESP_simpli_secure.ino) to the ESP using the Arduino IDE.
-3. connect the output of a PIR sensor to gpio-0.
-4. power the ESP and the PIR sensor and connect to it's wifi. The portal page the opens subsequently allows you to give the ESP wifi-credentials to login from the next time.
+3. connect the output of a PIR sensor to gpio-0 as shown [here](Circuit.jpg)
+4. power the ESP and the PIR sensor and connect to it's wifi. The portal page that opens subsequently allows you to give the ESP wifi-credentials to login from the next time.
 ##### Note: The ESP requires 3.3v with a minimum of 80 mA for proper functioning.
 
 ## Finding captured Images
